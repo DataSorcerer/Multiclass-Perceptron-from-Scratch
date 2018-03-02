@@ -113,7 +113,7 @@ Highest accuracy was observed around value of 0.01 for learning rate. Accuracy s
 plot_learning_curve_learning_Rates(dfOwls_train, dfOwls_validation, num_of_epochs = num_of_epochs)
 ```
 
-![](Report_Perceptron_files/figure-html/learning-1.png)<!-- -->
+![](figures/learning-1.png)<!-- -->
 
 *__3. Size of training set:__*
 High number of labelled instances could be required for training a neural network. Choosing the optimal number of training set size is thus crucial. Training set size seemed adequate from the learning curves plotted for training sample sizes against accuracy
@@ -123,7 +123,7 @@ High number of labelled instances could be required for training a neural networ
 plot_learning_curve(p_model, dfOwls_train, dfOwls_validation, number_of_iterations = num_of_epochs)
 ```
 
-![](Report_Perceptron_files/figure-html/training-1.png)<!-- -->
+![](figures/training-1.png)<!-- -->
 
 ### Performance evaluation:
 A 3rd of dataset was randomly locked aside for validation after fitting the model. The remaining 2/3rd of dataset was used for 10 fold cross validation. 
