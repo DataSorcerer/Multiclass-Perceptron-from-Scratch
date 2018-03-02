@@ -1,9 +1,4 @@
----
-title: "Multiclass classification with Perceptron"
-output: html_document
----
-
-
+##Implementing Perceptron algorithm from scratch in R
 
   Perceptron is the simplest form of an artificial neural network. Artificial Neural Networks (ANNs) are inspired from biological interconnection of neurons or nerve cells in animals. Perceptron imitates working of a single neuron. It was invented by Frank Rosenblatt in 1957. Perceptron is a  supervised learning algorithm which can be used for binary as swell as multiclass classification. As it involves only one layer of neuron, it is also known as single layer Perceptron.
 
@@ -133,7 +128,7 @@ plot_learning_curve(p_model, dfOwls_train, dfOwls_validation, number_of_iteratio
 ### Performance evaluation:
 A 3rd of dataset was randomly locked aside for validation after fitting the model. The remaining 2/3rd of dataset was used for 10 fold cross validation. 
 
-![Train test validate data management](https://github.com/DataSorcerer/Multiclass-Perceptron-from-Scratch/blob/master/figures/Design.JPG)
+![Train test validate data management](https://github.com/DataSorcerer/Multiclass-Perceptron-from-Scratch/blob/master/figures/Division.JPG)
 
 Results of various performance evaluation are as follows:
 *__1.	Ten Fold cross validation:__*
