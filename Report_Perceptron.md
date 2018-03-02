@@ -1,8 +1,6 @@
 ---
 title: "Multiclass classification with Perceptron"
-output: 
-  html_document:
-    keep_md: true
+output: html_document
 ---
 
 
