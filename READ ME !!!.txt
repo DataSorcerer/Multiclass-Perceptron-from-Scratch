@@ -1,0 +1,11 @@
+Perceptron Classifer has been implemented in this R project. This project, "Percpetron" has following files:
+1. Main_Program.r: Entry point to the program. Can be used to import CSV dataset, locking aside validation set, train, test, cross-validate, plot learning curves for a multiclass perceptron.
+2. Perceptron.r: Defines the actual Perceptron class. Can be used to model any classification problem with 4 features and last column as class label (not just Owls)
+3. Evaluation_Curves: Can be used to plot various learning curves to decide optimum values of hyperparameters like learning rate and number of epochs (iterations)
+4. Evaluation_Cross_Validation: Used for 10-fold cross validation
+5. Evaluation_Validation: Used to test fitted model over unseen data (validation set). Creates confusion matrix as well as precison with which each type of owl is classified.
+
+NOTE: In order to test algorithm with different CSV file (with similar structure of data), update the file name in "Main_Program.r" file.
+
+Pre-requistes:
+Latest version of R, R-Studio, and packages - readr, ggplot2
