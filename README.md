@@ -103,7 +103,7 @@ Upon trying various values of number of iterations, it was observed that accurac
 plot_learning_curve_epochs(p_model, dfOwls_train, dfOwls_validation)
 ```
 
-![](Report_Perceptron_files/figure-html/epochs-1.png)<!-- -->
+![](figures/epochs-1.png)<!-- -->
 
 *__2. Learning Rate:__*
 Highest accuracy was observed around value of 0.01 for learning rate. Accuracy seemed to be decreasing as learning was slowed down
