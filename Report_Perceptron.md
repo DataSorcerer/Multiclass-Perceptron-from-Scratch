@@ -16,7 +16,7 @@ output:
 
 ### Design of multiclass Perceptron
 The rudimentary design of a perceptron capable of classifying multiple classes of owls is as follows:
-![](figures/Design.jpg)
+![](https://github.com/DataSorcerer/Multiclass-Perceptron-from-Scratch/blob/master/figures/Design.JPG)
 
 Important terminology considered while designing Perceptron:
 *__Synaptic Weights:__*
@@ -35,7 +35,7 @@ A perceptron is trained through multiple passes over training dataset. Each pass
 *__Perceptron Online Learning:__*
 Perceptron is a linear classification algorithm in the sense that it forms linear hypothesis function of synaptic weights and features. Important steps in learning are outlined as below:
 
-![Perceptron Online Learning Algorithm](figures/Algorithm.jpg)
+![Perceptron Online Learning Algorithm](https://github.com/DataSorcerer/Multiclass-Perceptron-from-Scratch/blob/master/figures/Algorithm.JPG)
 
 ### Import dataset
 
@@ -136,7 +136,7 @@ plot_learning_curve(p_model, dfOwls_train, dfOwls_validation, number_of_iteratio
 ### Performance evaluation:
 A 3rd of dataset was randomly locked aside for validation after fitting the model. The remaining 2/3rd of dataset was used for 10 fold cross validation. 
 
-![Train test validate data management](figures/Division.jpg)
+![Train test validate data management](https://github.com/DataSorcerer/Multiclass-Perceptron-from-Scratch/blob/master/figures/Design.JPG)
 
 Results of various performance evaluation are as follows:
 *__1.	Ten Fold cross validation:__*
