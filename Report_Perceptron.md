@@ -1,4 +1,4 @@
-##Multiclass classification with Perceptron   
+## Multiclass classification with Perceptron   
 
   Perceptron is the simplest form of an artificial neural network. Artificial Neural Networks (ANNs) are inspired from biological interconnection of neurons or nerve cells in animals. Perceptron imitates working of a single neuron. It was invented by Frank Rosenblatt in 1957. Perceptron is a  supervised learning algorithm which can be used for binary as swell as multiclass classification. As it involves only one layer of neuron, it is also known as single layer Perceptron.
 
